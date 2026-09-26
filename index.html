@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saini Sweet House</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Fixed FontAwesome Version to stable v6 -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="main">
+            <div class="maintain1">
+                <div class="menu">
+                    <img src="img/tasty.png" alt="Saini Sweet House Logo">
+                </div>
+                <div class="menu1">
+                    <h1>Saini Sweet House</h1>
+                    <p>Taste That Creates Memories.</p>
+                </div>
+            </div>
+
+            <button class="menu-toggle" id="menuToggle" type="button">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="maintain2" id="mainMenu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li class="quick-menu">
+                        <button class="quick-menu-btn" id="quickMenuBtn" type="button" aria-expanded="false">
+                            Quick Menu <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <ul class="quick-dropdown" id="quickDropdown">
+                            <li><a href="quick.html">Pizza</a></li>
+                            <li><a href="quick.html">Burgers</a></li>
+                            <li><a href="quick.html">Fries & Sides</a></li>
+                            <li><a href="quick.html">Fast Food</a></li>
+                            <li><a href="quick.html">Snacks</a></li>
+                            <li><a href="quick.html">Salads</a></li>
+                            <li><a href="quick.html">Cold Drinks</a></li>
+                            <li><a href="quick.html">Desserts</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="spacial.html">Special Offers</a></li>
+                    <li><a href="gallary.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="maintain3">
+                <button><a href="contact.html">Order Now</a></button>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero1">
+            <h4><span>__</span> Welcome To <span>__</span></h4>
+            <h2>
+                <span class="with">Saini</span>
+                <span class="with1">Sweet House</span>
+            </h2>
+            <h3>Bringing Families Together, One Bite at a Time</h3>
+            <p>Delicious sweets, snacks and fast food made fresh for every special moment.</p>
+
+            <div class="btn">
+                <div class="btn1">
+                    <button>
+                        <a href="#quick-menu-section">
+                            Explore Menu <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </button>
+                </div>
+                <div class="btn2">
+                    <button>
+                        <a href="contact.html">
+                            Order Now <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="About">
+        <div class="about1">
+            <img src="img/familyfood.jpg" alt="Family Food">
+        </div>
+
+        <div class="about2">
+            <h3><span>__</span> About Us <span>__</span></h3>
+            <h2>Taste That Brings Families Together</h2>
+            <p>At Saini Sweet House, we believe that good food is more than just a meal — it’s a reason to come together.</p>
+            <p>From delicious traditional sweets to freshly prepared snacks and mouth-watering food, every dish is made with quality ingredients and a whole lot of love.</p>
+            <p>Whether you're celebrating a special occasion or simply enjoying a meal with your loved ones, Saini Sweet House is the perfect place to make every moment sweeter.</p>
+            <h4>Fresh Taste • Quality Ingredients • Happy Moments</h4>
+            <button><a href="about.html">Visit Us</a></button>
+
+            <div class="about3">
+                <div class="about4">
+                    <i class="fa-solid fa-leaf"></i>
+                    <h2>Fresh Taste</h2>
+                </div>
+                <div class="about4">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <h2>Quality Ingredients</h2>
+                </div>
+                <div class="about5">
+                    <i class="fa-solid fa-users"></i>
+                    <h2>Happy Moments</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="code" id="quick-menu-section">
+        <h1><span>__</span> Our Quick Menu <span>__</span></h1>
+        <h2>Delicious Taste, <span>Made With Love</span></h2>
+
+        <div class="code4">
+            <div class="code1" id="burgers">
+                <div class="code2">
+                    <img src="img/burger.jpg" alt="Aloo Tikki Burger">
+                </div>
+                <div class="code3">
+                    <h3>Aloo Tikki Burger <span>₹89</span></h3>
+                    <p>Crispy Tikki, Fresh Veggies & Delicious Taste!</p>
+                    <button><a href="contact.html">Order Now</a></button>
+                </div>
+            </div>
+
+            <div class="code1" id="pizza">
+                <div class="code2">
+                    <img src="img/pizza.jpg" alt="Mushroom Tomato Pizza">
+                </div>
+                <div class="code3">
+                    <h3>Mushroom & Tomato Pizza <span>₹299</span></h3>
+                    <p>Fresh Toppings • Cheesy Bite • Delicious Taste</p>
+                    <button><a href="contact.html">Order Now</a></button>
+                </div>
+            </div>
+
+            <div class="code1">
+                <div class="code2">
+                    <img src="img/grill.jpg" alt="Grilled Veg Cheese Sandwich">
+                </div>
+                <div class="code3">
+                    <h3>Grilled Veg Cheese Sandwich <span>₹69</span></h3>
+                    <p>Crispy grilled bread with fresh veggies and melted cheese.</p>
+                    <button><a href="contact.html">Order Now</a></button>
+                </div>
+            </div>
+
+            <div class="code1" id="drinks">
+                <div class="code2">
+                    <img src="img/colddrink.jpg" alt="Cold Drink">
+                </div>
+                <div class="code3">
+                    <h3>Cold Drink <span>₹49</span></h3>
+                    <p>Chilled and refreshing drink, perfect with your favorite meal.</p>
+                    <button><a href="contact.html">Order Now</a></button>
+                </div>
+            </div>
+
+            <div class="code1" id="desserts">
+                <div class="code2">
+                    <img src="img/gulabjamun.jpg" alt="Gulab Jamun">
+                </div>
+                <div class="code3">
+                    <h3>Gulab Jamun <span>₹200</span></h3>
+                    <p>Soft, juicy aur syrupy sweet, har bite mein delicious mithaas.</p>
+                    <button><a href="contact.html">Order Now</a></button>
+                </div>
+            </div>
+
+            <div class="code1">
+                <div class="code2">
+                    <img src="img/barfi.jpg" alt="Special Malai Barfi">
+                </div>
+                <div class="code3">
+                    <h3>Special Malai Barfi <span>₹400</span></h3>
+                    <p>Soft, creamy aur rich taste wali delicious mithai.</p>
+                    <button><a href="contact.html">Order Now</a></button>
+                </div>
+            </div>
+
+            <div class="code1">
+                <div class="code2">
+                    <img src="img/cake.jpg" alt="Milk Cake">
+                </div>
+                <div class="code3">
+                    <h3>Milk Cake <span>₹450</span></h3>
+                    <p>Soft, creamy aur rich traditional mithai.</p>
+                    <button><a href="contact.html">Order Now</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="code6">
+            <button><a href="#">Explore Menu</a></button>
+        </div>
+    </section>
+
+    <section class="Special">
+        <h1><span>__</span> Special Offers <span>__</span></h1>
+        <h2>Delicious Deals, <span>Made Just for You!</span></h2>
+        <p>
+            Enjoy amazing offers on your favorite sweets, snacks, burgers, pizzas, and refreshing drinks.
+            <br>
+            Treat yourself and your family to more taste at great prices.
+        </p>
+
+        <div class="sparit">
+            <div class="Special1" id="fastfood">
+                <div class="Special2">
+                    <div class="Special3">
+                        <img src="img/todayspacial.png" alt="Burger Combo">
+                    </div>
+                </div>
+                <div class="Special4">
+                    <div class="today-special">
+                        <span>Today's Special</span>
+                    </div>
+                    <h3>Burger Combo <span>₹149</span></h3>
+                    <p>Crispy Tikki, Fresh Veggies & Delicious Taste!</p>
+                    <button><a href="contact.html">Order Now</a></button>
+                </div>
+            </div>
+
+            <div class="Special1">
+                <div class="Special2">
+                    <div class="Special3">
+                        <img src="img/spacialtreat.png" alt="Sweet Treat Combo">
+                    </div>
+                </div>
+                <div class="Special4">
+                    <div class="today-special">
+                        <span>Sweet Treat</span>
+                    </div>
+                    <h3>Sweet Treat Combo <span>₹199</span></h3>
+                    <p>Buy your favorite sweets and make every celebration extra special.</p>
+                    <button><a href="contact.html">Order Now</a></button>
+                </div>
+            </div>
+
+            <div class="Special1">
+                <div class="Special2">
+                    <div class="Special3">
+                        <img src="img/fastfood.jpg" alt="Fast Food Combo">
+                    </div>
+                </div>
+                <div class="Special4">
+                    <div class="today-special">
+                        <span>Special Offer</span>
+                    </div>
+                    <h3>Fast Food Combo <span>₹149</span></h3>
+                    <p>Burger, crispy fries, refreshing cold drink & tasty nuggets — all in one combo.</p>
+                    <button><a href="contact.html">Order Now</a></button>
+                </div>
+            </div>
+        </div>
+
+        <button><a href="spacial.html">View More</a></button>
+    </section>
+
+    <section class="gallary2">
+        <h1><span>__</span> Gallery <span>__</span></h1>
+        <h2>Our Sweet Collection</h2>
+        <p>Explore the Saini Sweet House gallery featuring our fresh, delicious sweets and special treats. Quality, taste, and freshness in every bite.</p>
+
+        <div class="gallary">
+            <div class="gallary1"><img src="img/panirpizza.jpg" alt="Paneer Pizza"></div>
+            <div class="gallary1"><img src="img/burger.jpg" alt="Burger"></div>
+            <div class="gallary1"><img src="img/sandwich.jpg" alt="Sandwich"></div>
+            <div class="gallary1"><img src="img/franch.jpg" alt="French Fries"></div>
+        </div>
+
+        <div class="gallary">
+            <div class="gallary1"><img src="img/momo.jpg" alt="Momo"></div>
+            <div class="gallary1"><img src="img/smosa.jpg" alt="Samosa"></div>
+            <div class="gallary1"><img src="img/macroni.jpg" alt="Macaroni"></div>
+            <div class="gallary1"><img src="img/chamin.jpg" alt="Chowmein"></div>
+        </div>
+
+        <button><a href="gallary.html">Visit Now</a></button>
+    </section>
+
+    <section class="contact">
+        <h1><span>__</span> Contact <span>__</span></h1>
+        <h2>We’d Love to <span>Hear From You!</span></h2>
+        <p>
+            Have a question, want to place an order, or planning a special celebration?
+            <br>
+            Get in touch with us. Our team is always happy to help you
+            <br>
+            with your favorite sweets, snacks and delicious food.
+        </p>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Get In Touch</h2>
+                <div class="contact-line"></div>
+
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="contact-text">
+                        <h4>Visit Us</h4>
+                        <p>Ambala, Haryana, India</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                    <div class="contact-text">
+                        <h4>Call Us</h4>
+                        <p>+91 88168 40292</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="contact-text">
+                        <h4>Email Us</h4>
+                        <p>info@sainisweethouse.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fa-solid fa-clock"></i></div>
+                    <div class="contact-text">
+                        <h4>Opening Hours</h4>
+                        <p>Monday - Sunday</p>
+                        <p>10:00 AM - 10:00 PM</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <div class="form-line"></div>
+
+                <!-- CONTACT FORM WITH PROPER IDs ADDED -->
+                <form id="contactForm">
+                    <div class="form-row">
+                        <div class="input-box">
+                            <i class="fa-regular fa-user"></i>
+                            <input type="text" id="name" placeholder="Your Name *" required>
+                        </div>
+
+                        <div class="input-box">
+                            <i class="fa-regular fa-envelope"></i>
+                            <input type="email" id="email" placeholder="Email Address *" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="input-box">
+                            <i class="fa-solid fa-phone"></i>
+                            <input type="tel" id="phone" placeholder="Phone Number *" required>
+                        </div>
+
+                        <div class="input-box">
+                            <i class="fa-solid fa-list"></i>
+                            <select id="subject" required>
+                                <option value="" disabled selected>Subject *</option>
+                                <option value="General Inquiry">General Inquiry</option>
+                                <option value="Order Inquiry">Order Inquiry</option>
+                                <option value="Special Order">Special Order</option>
+                                <option value="Feedback">Feedback</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="message-box">
+                        <i class="fa-regular fa-comment"></i>
+                        <textarea id="message" placeholder="Your Message *" required></textarea>
+                    </div>
+
+                    <div class="form-bottom">
+                        <button type="submit" class="send-btn">
+                            <span>Send Message</span>
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+
+                        <div class="special-request">
+                            <h4>Have a special request?</h4>
+                            <p>We're here to help!</p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col brand-col">
+                <div class="footer-logo">
+                    <img src="img/tasty.png" alt="Saini Sweet House">
+                </div>
+                <h2>Saini Sweet House</h2>
+                <h4>Taste That Creates Memories.</h4>
+                <p>Fresh sweets, delicious snacks and mouth-watering fast food — made with quality ingredients and served with love.</p>
+
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <span class="footer-line"></span>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#quick-menu-section">Quick Menu</a></li>
+                    <li><a href="spacial.html">Special Offers</a></li>
+                    <li><a href="gallary.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Our Menu</h3>
+                <span class="footer-line"></span>
+                <ul>
+                    <li><a href="#pizza">Pizza</a></li>
+                    <li><a href="#burgers">Burgers</a></li>
+                    <li><a href="#fries">Fries & Sides</a></li>
+                    <li><a href="#fastfood">Fast Food</a></li>
+                    <li><a href="#snacks">Snacks</a></li>
+                    <li><a href="#desserts">Desserts</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col contact-col">
+                <h3>Contact Us</h3>
+                <span class="footer-line"></span>
+
+                <div class="footer-contact-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Ambala,<br>Haryana, India</p>
+                </div>
+
+                <div class="footer-contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+91 98765 43210</p>
+                </div>
+
+                <div class="footer-contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>info@sainisweethouse.com</p>
+                </div>
+
+                <div class="footer-hours">
+                    <h4>Opening Hours</h4>
+                    <p>Monday - Sunday</p>
+                    <p>10:00 AM - 10:00 PM</p>
+                </div>
+
+                <button class="footer-order-btn">
+                    <a href="contact.html">
+                        Order Now <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </button>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 <span>Saini Sweet House</span>. All Rights Reserved.</p>
+            <p>Made with <i class="fa-solid fa-heart"></i> for Food Lovers</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+        $(document).ready(function () {$("#menuToggle").on("click", function (e) {
+                e.stopPropagation();
+                $(".maintain2").toggleClass("active");
+                $(".maintain3").toggleClass("active");
+                $(this).find("i").toggleClass("fa-bars fa-xmark");
+            });
+
+            $("#quickMenuBtn").on("click", function (e) {
+                e.stopPropagation();
+                const quickMenu = $(".quick-menu");
+                const isOpen = quickMenu.hasClass("active");
+
+                $(".quick-menu").removeClass("active");
+
+                if (!isOpen) {
+                    quickMenu.addClass("active");
+                    $(this).attr("aria-expanded", "true");
+                } else {
+                    $(this).attr("aria-expanded", "false");
+                }
+            });
+
+            $(document).on("click", function () {
+                $(".quick-menu").removeClass("active");
+                $("#quickMenuBtn").attr("aria-expanded", "false");
+            });
+
+            $(".quick-dropdown a").on("click", function () {
+                $(".quick-menu").removeClass("active");
+                $("#quickMenuBtn").attr("aria-expanded", "false");
+            });
+
+            $(".code4").slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                infinite: true,
+                arrows: false,
+                dots: false,
+                pauseOnHover: true,
+                pauseOnFocus: true,
+                responsive: [
+                    {
+                        breakpoint: 992,
+                        settings: { slidesToShow: 2 }
+                    },
+                    {
+                        breakpoint: 576,
+                        settings: { slidesToShow: 1 }
+                    }
+                ]
+            });
+
+            $(".maintain2 > ul > li > a").on("click", function () {
+                $(".maintain2").removeClass("active");
+                $(".maintain3").removeClass("active");
+                $("#menuToggle").find("i").removeClass("fa-xmark").addClass("fa-bars");
+            });
+        });
+
+        // WhatsApp Form Integration Script
+        const contactForm = document.getElementById("contactForm");
+
+        if (contactForm) {
+            contactForm.addEventListener("submit", function (event) {
+                event.preventDefault();
+
+                const name = document.getElementById("name").value.trim();
+                const email = document.getElementById("email").value.trim();
+                const phone = document.getElementById("phone").value.trim();
+                const subject = document.getElementById("subject").value;
+                const message = document.getElementById("message").value.trim();
+
+                const whatsappNumber = "918816840292";
+
+                const whatsappMessage = `Hello Saini Sweet House,
+
+*New Contact Message*
+
+Name: ${name}
+Email: ${email}
+Phone: ${phone}
+Subject: ${subject}
+
+Message:
+${message}`;
+
+                const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+
+                window.open(whatsappURL, "_blank");
+            });
+        }
+    </script>
+</html>
